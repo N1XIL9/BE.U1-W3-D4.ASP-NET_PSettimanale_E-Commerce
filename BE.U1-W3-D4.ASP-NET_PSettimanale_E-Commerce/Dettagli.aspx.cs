@@ -11,11 +11,11 @@ namespace BE.U1_W3_D4.ASP_NET_PSettimanale_E_Commerce
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string Id = Request.QueryString["Id"].ToString() ;
+            string id = Request.QueryString["Id"] ;
 
             foreach (Prodotto p in Prodotto.GetProdotto())
             {
-                if(Id == p.Id.ToString() ) 
+                if(id == p.Id.ToString() ) 
                 {
                     Image1.ImageUrl = p.Immagine;
                     Nome.Text = p.NomeProdotto;

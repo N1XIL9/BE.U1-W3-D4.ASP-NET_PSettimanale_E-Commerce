@@ -15,7 +15,7 @@
                                 <div class="card shadow-sm">
                                     <div class="img-cont">
                                         
-                                        <a href="Dettagli.aspx?idprodotto=<%# Item.Id %>"> 
+                                        <a href="Dettagli.aspx?Id=<%# Item.Id %>"> 
                                             <img class="card-img-top" src="<%# Item.Immagine %>" role="img"  />
                                         </a>
                                     </div>

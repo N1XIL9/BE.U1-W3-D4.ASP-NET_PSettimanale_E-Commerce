@@ -8,8 +8,16 @@
                 <asp:Image ID="Image1" runat="server" />
             </div>
             <div class="col-9">
-                <asp:Label ID="Nome" runat="server" Text="Label" ></asp:Label>
-                <asp:Label ID="Descrizione" runat="server" Text="Label" ></asp:Label>
+                <div class="card-body">
+                    <asp:Label ID="Nome" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="Descrizione" runat="server" Text="Label"></asp:Label>
+
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="btn-group">
+                            
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
