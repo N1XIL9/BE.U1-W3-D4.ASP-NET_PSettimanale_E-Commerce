@@ -1,2 +1,20 @@
 ﻿body {
+   
+}
+
+.bglogo {
+    background-color: darkcyan;
+}
+
+#Button1 {
+    width: 250px;
+    border-radius: 5px;
+}
+
+.img-cont{
+    border-bottom: 1px solid black;
+}
+
+img {
+    cursor:pointer;
 }

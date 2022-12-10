@@ -5,29 +5,32 @@
 <html>
 <head runat="server">
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
-    <link href="style.css" rel="stylesheet" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+    <link href="style.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
-         <section class="py-5 text-center container-fluid">
-                     <div>
-                         <img src="img/11.png" class="img-fluid rounded-start" alt="logo">
-                     </div>
-                    <div class="row py-lg-5 bg-dark m-4">
-                      <div class="col-lg-6 col-md-8 mx-auto">
-                       
-                        <p class="lead text-muted text-light">Benvenuto in Tech-Time. Qui potrai acquistare l'orologio tech dei tuoi sogni a prezzi SUPER convenienti.</p>
-                      </div>
+   
+        <form id="form1" runat="server">
+            <section class="text-center">
+                <div class="bglogo">
+                    <img src="img/11.png" class="img-fluid rounded-start" alt="logo">
+                    
+                </div>
+            </section>
+                <div class="row justify-content-center text-center bg-dark">
+                    <div class="col-lg-6 col-md-8 p-2">
+
+                        <p class="text-light">Benvenuto in Tech-Time. Qui potrai acquistare l'orologio tech dei tuoi sogni a prezzi SUPER convenienti.</p>
                     </div>
-          </section>
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
-        </div>
-    </form>
+                </div>
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </form>
+    
 </body>
 </html>

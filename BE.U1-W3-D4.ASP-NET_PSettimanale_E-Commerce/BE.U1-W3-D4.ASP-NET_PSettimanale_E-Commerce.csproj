@@ -83,6 +83,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Dettagli.aspx" />
     <Content Include="Global.asax" />
     <Content Include="homePage.aspx" />
     <Content Include="img\1.png" />
@@ -105,6 +106,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dettagli.aspx.cs">
+      <DependentUpon>Dettagli.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dettagli.aspx.designer.cs">
+      <DependentUpon>Dettagli.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
