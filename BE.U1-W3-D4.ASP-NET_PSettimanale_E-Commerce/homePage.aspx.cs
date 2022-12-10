@@ -13,24 +13,8 @@ namespace BE.U1_W3_D4.ASP_NET_PSettimanale_E_Commerce
         {
             if (!IsPostBack)
             {
-              foreach (Prodotto p in Prodotto.GetProdotto())
-                {
-                    lblCardProdotto.Text = $" <div class=\"col\">\r\n" +
-                        $"<div class=\"card shadow-sm\">\r\n" +
-                        $"<div class=\"img-cont\">\r\n" +
-                        $"<img class=\"bd-placeholder-img card-img-top\" src=\"img/1.png\" role=\"img\" focusable=\"false\" />\r\n" +
-                        $"</div>\r\n\r\n\r\n" +
-                        $"<div class=\"card-body\">\r\n" +
-                        $"<p class=\"card-text\">Apple Wacth 44mm - White.</p>\r\n" +
-                        $"<div class=\"d-flex justify-content-between align-items-center\">\r\n" +
-                        $" <div class=\"btn-group\">\r\n                                        " +
-                        $"<asp:Button ID=\"Button1\" runat=\"server\" Text=\"Dettagli\" OnClick=\"Button1_Click\" />\r\n" +
-                        $"</div>\r\n" +
-                        $"</div>\r\n" +
-                        $"</div>\r\n" +
-                        $"</div>\r\n" +
-                        $"</div>";
-                }
+                Repeater1.DataSource = Prodotto.GetProdotto();
+                Repeater1.DataBind();
             }
         }
 

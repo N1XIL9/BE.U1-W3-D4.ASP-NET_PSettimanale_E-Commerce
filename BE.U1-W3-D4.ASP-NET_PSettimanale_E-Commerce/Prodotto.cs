@@ -7,6 +7,7 @@ namespace BE.U1_W3_D4.ASP_NET_PSettimanale_E_Commerce
 {
     public class Prodotto
     {
+        public int Id { get; set; }
         public string NomeProdotto { get; set; }
 
         public string Descrizione { get; set;}
@@ -19,15 +20,15 @@ namespace BE.U1_W3_D4.ASP_NET_PSettimanale_E_Commerce
         {
             List<Prodotto> listaProdotti = new List<Prodotto>();
 
-            Prodotto articolo1 = new Prodotto { NomeProdotto = "Apple Watch 44mm - White", Descrizione = "Cassa in Alluminio color Argento.Cinturino Sport Band Bianco.Taglia Regular.Touch screen.Sistema operativo incluso: watchOS 9", Immagine = "img/1.png", Prezzo = 489 };
-            Prodotto articolo2 = new Prodotto { NomeProdotto = "Apple Watch Series 8 GPS 45mm - Mezzanotte", Descrizione = "Cassa in Alluminio color Mezzanotte.Cinturino Sport Band nero.Taglia Regular.Touch screen.Sistema operativo incluso: watchOS 9", Immagine = "img/2.png", Prezzo = 389 };
-            Prodotto articolo3 = new Prodotto { NomeProdotto = "Apple Watch Ultra 49mm - White", Descrizione = "Cassa in Titanio color Argento.Cinturino Sport Band Bianco.Taglia Regular.Touch screen.Sistema operativo incluso: watchOS 9", Immagine = "img/1.png", Prezzo = 1189 };
-            Prodotto articolo4 = new Prodotto { NomeProdotto = "Apple Watch 44mm - White", Descrizione = "Cassa in Alluminio color Argento.Cinturino Sport Band Bianco.Taglia Regular.Touch screen.Sistema operativo incluso: watchOS 9", Immagine = "img/1.png", Prezzo = 489 };
-            Prodotto articolo5 = new Prodotto { NomeProdotto = "Apple Watch 44mm - White", Descrizione = "Cassa in Alluminio color Argento.Cinturino Sport Band Bianco.Taglia Regular.Touch screen.Sistema operativo incluso: watchOS 9", Immagine = "img/1.png", Prezzo = 489 };
-            Prodotto articolo6 = new Prodotto { NomeProdotto = "Apple Watch 44mm - White", Descrizione = "Cassa in Alluminio color Argento.Cinturino Sport Band Bianco.Taglia Regular.Touch screen.Sistema operativo incluso: watchOS 9", Immagine = "img/1.png", Prezzo = 489 };
-            Prodotto articolo7 = new Prodotto { NomeProdotto = "Apple Watch 44mm - White", Descrizione = "Cassa in Alluminio color Argento.Cinturino Sport Band Bianco.Taglia Regular.Touch screen.Sistema operativo incluso: watchOS 9", Immagine = "img/1.png", Prezzo = 489 };
-            Prodotto articolo8 = new Prodotto { NomeProdotto = "Apple Watch 44mm - White", Descrizione = "Cassa in Alluminio color Argento.Cinturino Sport Band Bianco.Taglia Regular.Touch screen.Sistema operativo incluso: watchOS 9", Immagine = "img/1.png", Prezzo = 489 };
-            Prodotto articolo9 = new Prodotto { NomeProdotto = "Apple Watch 44mm - White", Descrizione = "Cassa in Alluminio color Argento.Cinturino Sport Band Bianco.Taglia Regular.Touch screen.Sistema operativo incluso: watchOS 9", Immagine = "img/1.png", Prezzo = 489 };
+            Prodotto articolo1 = new Prodotto { Id = 1, NomeProdotto = "Apple Watch 44mm - White", Descrizione = "Cassa in Alluminio color Argento.Cinturino Sport Band Bianco.Taglia Regular.Touch screen.Sistema operativo incluso: watchOS 9", Immagine = "img/1.png", Prezzo = 489 };
+            Prodotto articolo2 = new Prodotto { Id = 2, NomeProdotto = "Apple Watch Series 8 GPS 45mm - Mezzanotte", Descrizione = "Cassa in Alluminio color Mezzanotte.Cinturino Sport Band nero.Taglia Regular.Touch screen.Sistema operativo incluso: watchOS 9", Immagine = "img/2.png", Prezzo = 389 };
+            Prodotto articolo3 = new Prodotto { Id = 3, NomeProdotto = "Apple Watch Ultra 49mm - White", Descrizione = "Cassa in Titanio color Argento.Cinturino Sport Band Bianco.Taglia Regular.Touch screen.Sistema operativo incluso: watchOS 9", Immagine = "img/1.png", Prezzo = 1189 };
+            Prodotto articolo4 = new Prodotto { Id = 4, NomeProdotto = "Apple Watch 44mm - White", Descrizione = "Cassa in Alluminio color Argento.Cinturino Sport Band Bianco.Taglia Regular.Touch screen.Sistema operativo incluso: watchOS 9", Immagine = "img/1.png", Prezzo = 489 };
+            Prodotto articolo5 = new Prodotto { Id = 5, NomeProdotto = "Apple Watch 44mm - White", Descrizione = "Cassa in Alluminio color Argento.Cinturino Sport Band Bianco.Taglia Regular.Touch screen.Sistema operativo incluso: watchOS 9", Immagine = "img/1.png", Prezzo = 489 };
+            Prodotto articolo6 = new Prodotto { Id = 6, NomeProdotto = "Apple Watch 44mm - White", Descrizione = "Cassa in Alluminio color Argento.Cinturino Sport Band Bianco.Taglia Regular.Touch screen.Sistema operativo incluso: watchOS 9", Immagine = "img/1.png", Prezzo = 489 };
+            Prodotto articolo7 = new Prodotto { Id = 7, NomeProdotto = "Apple Watch 44mm - White", Descrizione = "Cassa in Alluminio color Argento.Cinturino Sport Band Bianco.Taglia Regular.Touch screen.Sistema operativo incluso: watchOS 9", Immagine = "img/1.png", Prezzo = 489 };
+            Prodotto articolo8 = new Prodotto { Id = 8, NomeProdotto = "Apple Watch 44mm - White", Descrizione = "Cassa in Alluminio color Argento.Cinturino Sport Band Bianco.Taglia Regular.Touch screen.Sistema operativo incluso: watchOS 9", Immagine = "img/1.png", Prezzo = 489 };
+            Prodotto articolo9 = new Prodotto { Id = 9, NomeProdotto = "Apple Watch 44mm - White", Descrizione = "Cassa in Alluminio color Argento.Cinturino Sport Band Bianco.Taglia Regular.Touch screen.Sistema operativo incluso: watchOS 9", Immagine = "img/1.png", Prezzo = 489 };
 
             listaProdotti.Add(articolo1);
             listaProdotti.Add(articolo2);

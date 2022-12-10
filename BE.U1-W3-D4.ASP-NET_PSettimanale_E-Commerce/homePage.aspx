@@ -8,26 +8,30 @@
             <div class="container-fluid">
 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                    <asp:Label ID="lblCardProdotto" runat="server" Text=""></asp:Label>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <div class="img-cont">
-                                <img class="bd-placeholder-img card-img-top" src="img/1.png" role="img" focusable="false" />
-                            </div>
+                    <asp:Repeater ID="Repeater1" runat="server" ItemType="BE.U1_W3_D4.ASP_NET_PSettimanale_E_Commerce">
+                        <ItemTemplate>
+
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <div class="img-cont">
+                                        <img class="bd-placeholder-img card-img-top" src="<%#Item.Immagine %>" role="img" focusable="false" />
+                                    </div>
 
 
-                            <div class="card-body">
-                                <p class="card-title"></p>
+                                    <div class="card-body">
+                                        <p class="card-title"><%# Item.NomeProdotto %></p>
 
-                                <h4 class="card-text text-center"></h4>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <asp:Button ID="Button1" runat="server" Text="Dettagli" OnClick="Button1_Click" />                                       
+                                        <h5 class="card-text text-center"> <%# Item.Prezzo %></h5>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <asp:Button ID="Button1" runat="server" Text="Dettagli" OnClick="Button1_Click" />
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>                
+                        </ItemTemplate>
+                    </asp:Repeater>
                 </div>
             </div>
         </div>
