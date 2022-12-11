@@ -11,61 +11,43 @@ namespace BE.U1_W3_D4.ASP_NET_PSettimanale_E_Commerce
 {
 
 
-    public partial class Dettagli
+    public partial class Carrello
     {
 
         /// <summary>
-        /// Controllo Image1.
+        /// Controllo lblEmptyCart.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image1;
+        protected global::System.Web.UI.WebControls.Label lblEmptyCart;
 
         /// <summary>
-        /// Controllo Nome.
+        /// Controllo GridCarrello.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Nome;
+        protected global::System.Web.UI.WebControls.GridView GridCarrello;
 
         /// <summary>
-        /// Controllo Descrizione.
+        /// Controllo lblTotCarrello.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Descrizione;
+        protected global::System.Web.UI.WebControls.Label lblTotCarrello;
 
         /// <summary>
-        /// Controllo Prezzo.
+        /// Controllo Delete.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Prezzo;
-
-        /// <summary>
-        /// Controllo AddProduct.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button AddProduct;
-
-        /// <summary>
-        /// Controllo GoCart.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button GoCart;
+        protected global::System.Web.UI.WebControls.Button Delete;
     }
 }

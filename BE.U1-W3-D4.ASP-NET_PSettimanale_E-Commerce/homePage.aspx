@@ -26,9 +26,7 @@
 
                                         <h5 class="card-text text-center"> <%# Item.Prezzo.ToString("c2") %></h5>
                                         <div class="d-flex flex-column align-items-center">
-                                            <div class="btn-group">
-                                                <asp:Button ID="Button1" runat="server" Text="Aggiungi al carrello" OnClick="Button1_Click" />
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                 </div>

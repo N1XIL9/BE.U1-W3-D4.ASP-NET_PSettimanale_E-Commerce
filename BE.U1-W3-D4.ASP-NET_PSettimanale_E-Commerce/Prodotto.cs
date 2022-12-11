@@ -17,6 +17,8 @@ namespace BE.U1_W3_D4.ASP_NET_PSettimanale_E_Commerce
 
         public double Prezzo { get; set; }
 
+        public static double TotCarrello { get; set; }
+
         public static List<Prodotto> GetProdotto()
         {
             List<Prodotto> listaProdotti = new List<Prodotto>();
@@ -41,8 +43,10 @@ namespace BE.U1_W3_D4.ASP_NET_PSettimanale_E_Commerce
             listaProdotti.Add(articolo8);
             listaProdotti.Add(articolo9);
             return listaProdotti;
-
         }
+            public static List<Prodotto> listaCarrello = new List<Prodotto>();
 
     }
+
+    
 }
