@@ -18,9 +18,6 @@ namespace BE.U1_W3_D4.ASP_NET_PSettimanale_E_Commerce
             }
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }
